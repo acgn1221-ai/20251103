@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+      <div class="container">
+        <h1>CSV 題庫測驗（p5.js 範例）</h1>
+        <p class="lead">可以使用預設題庫或上傳自己的 CSV 檔案。每次隨機出 5 題，完成後會顯示成績與回饋。</p>
+
+        <div class="controls">
+          <button id="btnStart" class="btn">開始測驗</button>
+          <button id="btnRestart" class="btn">重設/重新測驗</button>
+        </div>
+
+        <div id="canvasHolder"></div>
+
+        <p class="hint">CSV 欄位範例（第一列為欄位名稱）： id,question,a,b,c,d,answer,explanation（可加入 difficulty 欄位：easy,medium,hard）</p>
+      </div>
+
+      <script src="sketch.js"></script>
+  </body>
+</html>

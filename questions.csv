@@ -1,0 +1,6 @@
+id,question,a,b,c,d,answer,explanation
+1,上課總共會點名幾次？,4次,5次,6次,7次,c,本學期共點名 6 次
+2,這學期用什麼寫程式？,Notepad,Visual Studio Code,Sublime Text,Atom,b,使用 Visual Studio Code 開發
+3,用什麼 AI 寫程式？,ChatGPT,Copilot,GitHub,Bard,c,使用 GitHub 輔助寫程式
+4,寫筆記的軟體？,OneNote,Word,Google Docs,HackMD,d,使用 HackMD 寫筆記
+5,在哪裡點名？,Teams,iClass,Moodle,Google Meet,b,在 iClass 平台點名
